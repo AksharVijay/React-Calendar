@@ -1,0 +1,117 @@
+.calendar-container,
+.calendar,
+.calendar-header,
+td,
+tr{
+  padding:0;
+  margin:0;
+}
+
+.calendar-container{
+  border:3px solid #333333;
+}
+
+.calendar{
+  background-color: #ffffff;
+  border-spacing:0;
+  border-collapse:collapse;
+  width:100%;
+}
+
+.calendar-header{
+  border-bottom: 1px solid #333333;
+  font-size:1.6em;
+}
+
+.calendar-header td{
+  border-spacing:0;
+  padding-left:5px;
+}
+
+.calendar-container, .calendar, .calendar-header, td, tr
+{
+  cursor:pointer;
+}
+.previous
+{
+  margin-right:86%;
+}
+
+.day,
+.empty-slot,
+.week-day {
+  text-align:center;
+  height:40px;
+}
+
+.week-day{
+  font-size:0.8em;
+}
+
+.day{
+  font-size:0.8em;
+}
+
+.day{
+  cursor:pointer;
+  width:24px;
+  height:24px;
+  line-height:24px;
+  background-color: #CCCCCC;
+  padding: 3px;
+  border-right: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.current-day
+{
+  background-color: #4285f4;
+  width:28px;
+  height:28px;
+  line-height: 28px;
+  border-radius:2%;
+  color:#ffffff;
+}
+.month-popup {
+  position:absolute;
+  padding:5px;
+  background:#ffffff;
+  border:2px solid skyblue;
+}
+
+.month-popup div {
+  padding: 0.3em;
+}
+
+.nav-month {
+  position:absolute;
+  top:0.6em;
+  font-size:0.6em;
+  right:3px;
+}
+
+.prev{
+
+}
+
+.next{
+
+}
+.label-year
+{
+  font-size: 14px;
+  padding: 0px 5px;
+}
+
+.editor-year{
+  max-width:3.6em;
+}
+
+.label-month,
+.lable-year {
+  font-size:0.6em;
+}
+
+.label-month {
+  cursor:pointer;
+}
